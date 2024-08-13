@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  border: 5px dashed blueviolet;
+  padding: 1vh 5vw;
+}
+.carts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.cart{
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.image{
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.meal-info{
+  margin: 20px 5px;
+}
+.meal-price{
+  color: rgb(33, 33, 33);
+  font-size: 1.3rem;
+}
+.meal-name{
+  font-size: 1.5rem;
+}
+.read-more{
+  color: rgb(60, 121, 170);
+  cursor: pointer;
+}
+.btn-red{
+  background-color: rgb(105, 104, 104);
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid rgb(250, 93, 93);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn-red:hover{
+  background-color: rgb(250, 93, 93);
+  color: white;
+  transition:all 0.2s;
+}
+.refresh{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-white{
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid rgb(60, 121, 170);
+}
+.btn-white:hover{
+  background-color: rgb(60, 121, 170);
+  color: white;
+  transition:all 0.2s;
+}
